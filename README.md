@@ -1,34 +1,8 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+next.js 기본기를 익히고, openAPI를 이용하여 간단한 영화앱을 만들어 보자.
+해당 미니프로젝트는 Tailwind CSS를 적용하였다. 
 
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+다양한 css전처리기들이 많은 가운데 가끔 Tailwind CSS를 사용한다는 기업들이 보였다. 
+소개문서와 마찬가지로, 
+유틸리티 기반? 으로 만들어져 있기 때문에 클래스 이름을 만들 필요도 없다. 즉, 이름 뭐로 하지 라는 고민거리가 줄게 되는 것이다. 
+기존 CSS를 해봤다면, 새로운 기능을 추가할 때마다 파일이 커지기 마련이다. 하지만 이런 유틸리티 기반 css를 사용함으로써 재사용성이 엄청 좋다고 생각한다.
+kakao 기술 블로그에도 도입을 했다는 글을 본적이 있었다. 

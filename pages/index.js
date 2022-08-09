@@ -27,6 +27,7 @@ export default function Home({results}) {
 }
 //server에서 먼저 렌더링을 하고 그 결과값을 client로 전달한다.
 export async function getServerSideProps(context){
+  console.log(context.query)
   const genre = context.query.genre;
 
   const request = await fetch(`https://api.themoviedb.org/3${requests[genre]?.url || requests.fetchTrending.url}`)
